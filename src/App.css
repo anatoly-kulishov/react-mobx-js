@@ -1,0 +1,127 @@
+.page-title {
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    background-color: #eee;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 35vh;
+    padding: 15px;
+    background-color: tomato;
+}
+
+.counter__total {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.counter__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 33.33%;
+    margin: 25px 0 0 0;
+}
+
+.counter__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter__item .title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #eee;
+}
+
+.counter .count {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.counter .count:last-child {
+    margin-right: 0;
+}
+
+.counter__item .btn-box {
+    margin-top: 10px;
+}
+
+.counter__item .btn-box > .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    font-size: 30px;
+    line-height: 1;
+    border: 0;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.todos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 35vh;
+    padding: 15px;
+    list-style: none;
+}
+
+.todos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.todo {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.todo .complete-input {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.todo .label {
+    display: inline-flex;
+    min-width: 200px;
+    margin-left: 5px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.todos .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 1;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.todos label.complete {
+    text-decoration: line-through;
+}
